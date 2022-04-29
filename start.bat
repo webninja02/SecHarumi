@@ -1,4 +1,4 @@
 @echo off
-TITLE Asuna Robot 
+TITLE Harumi 
 :: Enables virtual env mode and then starts asuna
 env\scripts\activate.bat && py -m AsunaRobot
