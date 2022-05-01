@@ -46,16 +46,9 @@ This Bot is Created by The_Ghost_Hunter, If your kanging this without fork at le
 👉 WilliamButcherBot
 
 
-$ git clone https://github.com/HuntingBots/AsunaRobot
+$ git clone https://github.com/webninja02/SecHarumi
 
 ```
 
 
 
-## Note
-
-
-* [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
-* [Support](https://telegram.dog/AsunaRobotSupport)
-* [Discussion](https://telegram.dog/helpcentrebot1)
-* [Second Group](https://telegram.dog/fire_world_entertainment)
