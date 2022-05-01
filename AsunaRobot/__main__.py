@@ -76,14 +76,14 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `Hello` [🧚‍♀️](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) `My name is` *Asuna*
 `I am powerful  group management bot.
-Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
+Built by Ninja for Your Telegram Group , I specialize in managing most group types.
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/My_Asuna_Robot?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/missemikobot?startgroup=true"
         ),
     ],
     [
@@ -92,35 +92,35 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"
+            text="🤴 OWNER", url="https://telegram.dog/verifiedscammer"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="📺 Star Wolrd Entertainment",
-            url="https://telegram.dog/fire_world_entertainment",
+            text="Free Checker",
+            url="https://telegram.dog/webninjachat",
         ),
     ],
     [
-        InlineKeyboardButton(text="🗨️ Logis", url="https://t.me/AsunaLogUpdate"),
+        InlineKeyboardButton(text="🗨️ Logis", url="https://telegram.dog/webninjachat"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="👥 SUPPORT", url="https://telegram.dog/webninjachat"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="💾 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+            text="💾 Source Code", url="https://telegram.dog/webninjachat"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna ⚙️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [Asuna ⚙️]("https://telegra.ph/file/154ab9b6a60ef85abda07.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249b4.png"
+ASUNA_IMG = "https://telegra.ph/file/154ab9b6a60ef85abda07.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @The_Ghost_Hunter\
@@ -691,7 +691,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[Yes I'm alive now!](https://telegra.ph/file/fefbe49175499b0646495.mp4)",
+                "[Yes I'm alive now!](https://telegra.ph/file/154ab9b6a60ef85abda07.jpg)",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
